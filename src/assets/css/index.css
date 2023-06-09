@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+
+.colors {
+	/* CSS HEX */
+	--fluorescent-cyan: #18e3eb;
+	--black: #000000ff;
+	--prussian-blue: #00345cff;
+	--prussian-blue-2: #072b4bff;
+	--blue-munsell: #0e8b9bff;
+
+	/* CSS HSL */
+	--fluorescent-cyan: #19e4eb;
+	--black: #000000;
+	--prussian-blue: #00345c;
+	--prussian-blue-2: #072b4b;
+	--blue-munsell: #0e8a9a;
+}
+
+.animate-fadeIn {
+	animation: fadeIn forwards 0.5s linear;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
